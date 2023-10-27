@@ -1,0 +1,46 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    color: #fff; /* Color del texto (blanco) */
+    padding: 10px 0; /* Espaciado interno superior e inferior */
+    text-align: center; /* Alineación de texto al centro */
+}
+
+.navbar ul {
+    list-style: none; /* Quitar viñetas de la lista */
+}
+
+.navbar li {
+    display: inline; /* Mostrar elementos en línea (en una fila) */
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+}
+
+.navbar a {
+    color: #fff; /* Color de los enlaces (blanco) */
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+}
+
+/* Estilos para el contenido de la página */
+.container {
+    margin: 20px; /* Márgenes alrededor del contenido */
+    text-align: center; /* Alineación de texto al centro */
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer (blanco) */
+    padding: 20px 0; /* Espaciado interno superior e inferior */
+}
+
+/* Estilos para los enlaces en el footer */
+.footer a {
+    color: #fff; /* Color de los enlaces (blanco) */
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+    margin: 0 10px; /* Espaciado entre enlaces */
+}
+
+/* Estilos para los enlaces al pasar el mouse (opcional) */
+.footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+}
