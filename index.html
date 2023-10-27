@@ -9,13 +9,18 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script> <!-- Agregamos el archivo JavaScript personalizado -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet"><!-- Agregamos la fuente de google -->
 </head>
-<body style="background-image: url('img/fondo.jpg'); background-size: cover;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- aqui se crea la pagina principal -->
+<body style="background-image: url('img/fondo.jpg'); background-size: cover;"> <!-- Aqui se agrega la imagen de fondo -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Aqui se crea la barra de navegacion -->
         <a class="navbar-brand" href="#">Océano</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Aqui se agrega los titulos de la barra de navegacion -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -43,6 +48,7 @@
         </div>
     </nav>
 
+    <!-- En este codigo se crea el carrusel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -65,6 +71,7 @@
         </a>
     </div>
 
+    <!-- Aqui se crean las secciones de la pagina -->
     <div id="seccion1" class="container translucent-box">
         <div class="text-center">
             <img src="img/Oceano-Atlantico.jpg" alt="Océano" style="max-width: 50%;">
@@ -147,6 +154,7 @@
             La construcción de infraestructuras industriales y urbanas en áreas costeras, como puertos, fábricas y desarrollos turísticos, ha llevado a la degradación de hábitats costeros, como manglares y arrecifes de coral. Estos hábitats son esenciales para la vida marina y ayudan a proteger las costas de la erosión y las inundaciones.</p>
     </div>
 
+    <!-- Aqui se crea el formulario de ingreso -->
     <div class="container translucent-box">
         <h2>Formulario de Ingreso</h2>
         <form id="loginForm">
@@ -162,6 +170,7 @@
         </form>
     </div>
 
+    <!-- Aqui se crea el modal de nuevo ingreso -->
     <div class="container translucent-box">
         <h2>Modal de Registro</h2>
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registrationModal">
@@ -192,6 +201,7 @@
         </div>
     </div>
 
+    <!-- Aqui se crea el codigo para agregar el mapa de google -->
     <div class="container translucent-box">
         <h2>Mapa de Ubicación</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65352652.085742734!2d-31.498041349999994!3d-1.2885860499999955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x65a81cae36eb8ff%3A0xa6342257f310534f!2sAtlantic%20Ocean!5e0!3m2!1sen!2smx!4v1698416609617!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -199,6 +209,7 @@
 </body>
 </html>
 
+<!-- Aui se crea el footer de la pagina -->
 <footer class="footer">
     <div class="container">
         <div class="row">

@@ -124,3 +124,9 @@ body {
 .footer a:hover {
     text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
 }
+
+/*Fuente de google*/
+a{
+    font-family: 'Open Sans', sans-serif;
+}
+

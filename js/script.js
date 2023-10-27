@@ -18,9 +18,6 @@ document.getElementById('registrationForm').addEventListener('submit', function 
     const newUsername = document.getElementById('newUsername').value;
     const newPassword = document.getElementById('newPassword').value;
 
-    // Aquí puedes agregar la lógica de validación del formulario de registro.
-    // Por ejemplo, puedes enviar los datos al servidor para el registro.
-
     // Muestra un mensaje de registro exitoso (esto es solo un ejemplo).
     alert('Registro exitoso para el usuario ' + newUsername);
     // Cierra el modal de registro.
